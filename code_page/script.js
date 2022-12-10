@@ -52,7 +52,7 @@ function to2() {
 
 	function ans()
 	{
-		if(input.value == "파이썬" or input.value == "python") // [문1]의 정답부분
+		if(input.value == "파이썬")// [문1]의 정답부분
 			location.href="./page02_python.html";
 		else
 		{
