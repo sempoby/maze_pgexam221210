@@ -52,8 +52,8 @@ function to2() {
 
 	function ans()
 	{
-		if(input.value == "라온이")
-			location.href="./page2_raon.html";
+		if(input.value == "파이썬" or input.value == "python") // [문1]의 정답부분
+			location.href="./page02_raon.html";
 		else
 		{
 			input.style.animation='shake 0.5s';
