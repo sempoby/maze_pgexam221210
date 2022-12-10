@@ -53,7 +53,7 @@ function to2() {
 	function ans()
 	{
 		if(input.value == "파이썬" or input.value == "python") // [문1]의 정답부분
-			location.href="./page02_raon.html";
+			location.href="./page02_python.html";
 		else
 		{
 			input.style.animation='shake 0.5s';
