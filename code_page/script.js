@@ -9,7 +9,7 @@ function to1() {
 
 	function ans()
 	{
-		if(input.value == "시작")
+		if(input.value == "출발")
 			location.href="./code_page/page1_start.html";
 		else
 		{
