@@ -10,11 +10,11 @@ function to1() {
 	function ans()
 	{
 		if(input.value == "출발")
-			location.href="./code_page/page1_start.html";
+			location.href="./code_page/page01_start.html";
 		else
 		{
 			input.style.animation='shake 0.5s';
-			error.innerHTML = "다시 풀어보세요";
+			error.innerHTML = "출발을 입력하세요";
 		}
 	}
 
@@ -64,7 +64,7 @@ function to2() {
 	//타이핑을 했을 때
 	input.addEventListener("keydown", e => {
 		//엔터라면 답안 확인(ans 함수 호출)
-		if(e.keyCode === 13) {
+		if(e.keyCode === 13) { //13은 엔터키
 			ans();
 		}
 	});
